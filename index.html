@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="shortcut icon" href="img/favico.png" type="image/x-icon">
+    <!-- ! Fontawesome CDN -->
+    <script src="https://kit.fontawesome.com/756c2fd4b9.js" crossorigin="anonymous"></script>
+    <!-- ! AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ! CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ! nav start -->
+    <nav class="size-100">
+        <input type="checkbox" id="menu-toggle">
+        <figure>
+            <a href="index.html"><img src="img/neonnobg.png" alt="website image"></a>
+        </figure>
+        <div class="menu">
+            <ul>
+                <li><a class="active" href="#">Anasayfa</a></li>
+                <li><a href="products.html">Üyelikler</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+            <ul>
+                <li><a href="logPage.html">Üye Girişi</a></li>
+                <li><a class="login-btn" href="regPage.html">Kayıt Ol</a></li>
+            </ul>
+        </div>
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+    </nav>
+    <!-- ! nav end -->
+
+    <main class="size-100">
+        <!-- ! Hero start-->
+        <div class="hero-image" data-aos="flip-up">
+            <div class="hero-text">
+                <h1>California Records</h1>
+                <p>
+                    "Sana bir hikaye anlatayım ister misin?
+                    15 yaşındayken mahalledeki bir plakçıya giderdim
+                    Orda çalışan biri vardı ve o benim ne sevdiğimi bilirdi
+                    Ve bir gün bana bir albüm vermişti
+                    Eve götürüp pikaba taktım ve anında nefret ettim..."
+                </p>
+            </div>
+        </div>
+        <!-- ! Hero end -->
+
+        <!-- ! first -->
+        <div class="flex first-part part">
+            <section class="size-60 a">
+                    <div class="context" data-aos="zoom-out-right">
+                        <h2>Vinyl Dünyasının Etkileyici Bir Bakışı</h2>
+                        <p>
+                            Vinyl'in büyülü dünyasında kaybolmak, anıları yankılatan seslerin mistik çağrısına kulak vermek demektir. Kırılmaz bir nostalji köprüsü olan plaklar,
+                        </p>
+                    </div>
+            </section>
+            <section class="size-40">
+                <img class="first-img" src="img/img1.webp" alt="musical image" data-aos="flip-down">
+            </section>
+        </div>
+
+        <!-- ! second -->
+        <div class="flex second-part part">
+            <section class="size-40 content-2">
+                <img class="first-img" src="img/img2.jpg" alt="record" data-aos="flip-down">
+            </section>
+            <section class="size-60 a" data-aos="zoom-in-left">
+                <div class="context">
+                    <h2>Vinyl: Spotify'ı Geride Bırakan Ses Deneyimi</h2>
+                    <p>
+                        Vinyl, Spotify'ı geride bırakan gerçek bir ses deneyimidir.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- ! thrid -->
+        <div class="flex thrid-part part">
+            <section class="size-60 a" data-aos="zoom-in-right">
+                <div class="context">
+                    <h2 data-aos="zoom-out-right">Alice Harikalar Diyarı Bir Abonelik Kadar Uzakta</h2>
+                    <p>
+                        Vinyl e-posta bültenimize abone olun. En son plak haberleri, özel indirimler, yeni çıkışlar ve müzikle ilgili ilham verici içeriklerle dolu bir dünyaya adım atın. Vinyl, müziğin gerçek ruhunu yeniden keşfetmenizi sağlayacak.
+                    </p>
+                    <form class="main-form">
+                        <input type="email" placeholder="e-mail adresinizi giriniz">
+                        <input type="submit" value="Abone Ol">
+                    </form>
+                </div>
+            </section>
+            <section class="size-40 content-3">
+                <img src="img/img3.webp" alt="image about jazz" data-aos="flip-down">
+            </section>
+        </div>
+    </main>
+    <!-- ! footer start -->
+    <footer class="size-100">
+        <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="products.html">Üyelikler</a></li>
+            <li><a href="contact.html">Adres</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+        <ul class="row">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </footer>
+    <!-- ! footer end -->
+    <!-- ! AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

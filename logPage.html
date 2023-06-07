@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yapın</title>
+    <link rel="shortcut icon" href="img/favico.png" type="image/x-icon">
+    <!-- ! Fontawesome CDN -->
+    <script src="https://kit.fontawesome.com/756c2fd4b9.js" crossorigin="anonymous"></script>
+    <!-- ! CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ! nav start -->
+    <nav class="size-100">
+        <input type="checkbox" id="menu-toggle">
+        <figure>
+            <a href="index.html"><img src="img/neonnobg.png" alt="website image"></a>
+        </figure>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="products.html">Üyelikler</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+            <ul>
+                <li><a class="active" href="logPage.html">Üye Girişi</a></li>
+                <li><a class="login-btn" href="regPage.html">Kayıt Ol</a></li>
+            </ul>
+        </div>
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+    </nav>
+    <!-- ! nav end -->
+    <!-- ! main start -->
+    <main class="size-100 log-main">
+            <div class="log-div">
+                <form action="#" class="log-form">
+                    <div class="inp-div">
+                        <label for="userName">Kullanıcı Adı</label>
+                    </div>
+                    <div class="inp-div">
+                        <input type="text" id="userName" placeholder="Kullanıcı Adınızı Giriniz">
+                    </div>
+                    <div class="inp-div">
+                        <label for="password">Şifre</label>
+                    </div>
+                    <div class="inp-div password">
+                        <input type="password" id="password" placeholder="***">
+                        <a href="#"><small>Şifremi Unuttum</small></a>
+                    </div>
+                    <div class="inp-div">
+                        <button class="log-btn">Giriş Yap</button>
+                        <button formaction="regPage.html" class="reg-btn">Kayıt Ol</button>
+                    </div>
+                </form>
+                </div>
+    </main>
+    <!-- ! main end -->
+
+        <!-- ! footer start -->
+        <footer class="size-100">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="products.html">Üyelikler</a></li>
+                <li><a href="contact.html">Adres</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+            <ul class="row">
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </footer>
+        <!-- ! footer end -->
+</body>
+</html>
